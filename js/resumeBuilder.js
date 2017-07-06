@@ -32,7 +32,7 @@ var education = {
 			"location": "Khonkean, Thailand",
 			"degree": "Bachelor",
 			"major": "Computer Science",
-			"minor": "​Thai Studies",
+			"minor": "Thai Studies",
 			"url": "www.kku.ac.th"
 		}		
 	],
