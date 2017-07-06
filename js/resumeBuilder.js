@@ -32,7 +32,7 @@ var education = {
 			"location": "Khonkean, Thailand",
 			"degree": "Bachelor",
 			"major": "Computer Science",
-			 "minor": "​Thai Studies",
+			"minor": "​Thai Studies",
 			"url": "www.kku.ac.th"
 		}		
 	],
@@ -70,10 +70,9 @@ var projects = {
 		{
 			"title": "CASCAP",
 			"datesWorked": "January 2016 - April 2016",
-			"description": "Front-End Web Developer " +
-			"Nanodegree.",
+			"description": "Front-End Web Developer ",
 			"images": ["images/CASCAP.png"],
-			"url": "http://www.cherylcourt.ca/frogger"
+			"url": "http://www.cascap.in.th"
 		}
 	]
 };
