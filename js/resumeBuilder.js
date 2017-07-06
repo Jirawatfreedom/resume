@@ -135,8 +135,15 @@ function displayWork() {
 }
 
 displayWork();
-
-
+function locationizer(work_obj){
+	var locationArray = [];
+	for (job in work_obj.jobs) {
+		var newLocation = work_obj.jobs[job].location;
+		locationArray.push(newLocation)
+	}
+	return locationArray;
+}
+console.log(locationizer(work))
 projects.display = function() {
 	if(projects.projects.length > 0) {
 		for(i in projects.projects) {
