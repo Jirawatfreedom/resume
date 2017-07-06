@@ -1,2 +1,2 @@
-# resume# resume
-# resume
+
+[My Resume](https://jirawatfreedom.github.io/resume)
