@@ -5,7 +5,8 @@ var bio = {
 		"email": "jirawatfreedom@gmail.com",
 		"github": "jirawatfreedom",
 		"twitter": "@jirawat",
-		"location": "Nakornradchasema, Thailand"
+		"location": "Nakornradchasema, Thailand",
+		"mobile" : "087-2460743"
 	},
 	"picture": "images/faceMy.jpg",
 	"welcomeMessage": "Code is life.",
@@ -77,12 +78,12 @@ var formattedName = HTMLheaderName.replace("%data%", bio.name);
 var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
 var formattedBioPic = HTMLbioPic.replace("%data%", bio.picture);
 var formattedWelcomeMsg = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
-
 var formattedContactInfo = [];
 formattedContactInfo.push(HTMLemail.replace("%data%", bio.contacts.email));
 formattedContactInfo.push(HTMLgithub.replace("%data%", bio.contacts.github));
 formattedContactInfo.push(HTMLtwitter.replace("%data%", bio.contacts.twitter));
 formattedContactInfo.push(HTMLlocation.replace("%data%", bio.contacts.location));
+formattedContactInfo.push(HTMLmobile.replace("%data%", bio.contacts.mobile));
 
 
 $("#header").prepend(formattedRole);
