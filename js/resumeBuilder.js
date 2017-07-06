@@ -43,11 +43,6 @@ var education = {
 			"url": "https://www.udacity.com/course/ud015"
 		},
 		{ "school": "Udacity",
-			"title": "HTML5 Canvas",
-			"completed": "June 2017",
-			"url": "https://www.udacity.com/course/ud292"
-		},
-		{ "school": "Udacity",
 			"title": "Javascript Basics",
 			"completed": "June 2017",
 			"url": "https://www.udacity.com/course/ud804"
