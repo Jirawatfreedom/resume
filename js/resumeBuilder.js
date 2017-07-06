@@ -39,27 +39,27 @@ var education = {
 	"onlineCourses": [
 		{ "school": "Udacity",
 			"title": "Object-Oriented Javascript",
-			"completed": "November 2014",
+			"completed": "June 2017",
 			"url": "https://www.udacity.com/course/ud015"
 		},
 		{ "school": "Udacity",
 			"title": "HTML5 Canvas",
-			"completed": "November 2014",
+			"completed": "June 2017",
 			"url": "https://www.udacity.com/course/ud292"
 		},
 		{ "school": "Udacity",
 			"title": "Javascript Basics",
-			"completed": "October 2014",
+			"completed": "June 2017",
 			"url": "https://www.udacity.com/course/ud804"
 		},
 		{ "school": "Udacity",
 			"title": "Intro to HTML and CSS",
-			"completed": "October 2014",
+			"completed": "June 2017",
 			"url": "https://www.udacity.com/course/ud304"
 		},	
 		{ "school": "Udacity",
 			"title": "Web Development",
-			"completed": "August 2014",
+			"completed": "June 2017",
 			"url": "https://www.udacity.com/course/cs253"
 		}
 	]
