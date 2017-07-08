@@ -4,8 +4,7 @@ var bio = {
 	"contacts": {
 		"email": "jirawatfreedom@gmail.com",
 		"github": "jirawatfreedom",
-		"twitter": "@jirawat",
-		"location": "Nakornradchasema, Thailand",
+		"location": "Nakhonratchasima, Thailand",
 		"mobile" : "087-2460743"
 	},
 	"picture": "images/faceMy.jpg",
@@ -81,7 +80,7 @@ var formattedWelcomeMsg = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
 var formattedContactInfo = [];
 formattedContactInfo.push(HTMLemail.replace("%data%", bio.contacts.email));
 formattedContactInfo.push(HTMLgithub.replace("%data%", bio.contacts.github));
-formattedContactInfo.push(HTMLtwitter.replace("%data%", bio.contacts.twitter));
+
 formattedContactInfo.push(HTMLlocation.replace("%data%", bio.contacts.location));
 formattedContactInfo.push(HTMLmobile.replace("%data%", bio.contacts.mobile));
 
@@ -119,7 +118,7 @@ function displayWork() {
 			var formattedWorkDescription = HTMLworkDescription.replace("%data%", work.jobs[i].description);
 
 			var formattedEmployerWorkTitle = formattedEmployer + formattedWorkTitle;
-
+			
 			$(".work-entry:last").append(formattedEmployerWorkTitle);
 			$(".work-entry:last").append(formattedWorkLocation);
 			$(".work-entry:last").append(formattedDatesWorked);
