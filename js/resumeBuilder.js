@@ -9,7 +9,7 @@ var bio = {
 	},
 	"picture": "images/faceMy.jpg",
 	"welcomeMessage": "Code is life.",
-	"skills": ["HTML", "CSS", "JavaScript", "Go"]
+	"skills": ["HTML", "CSS", "JavaScript", "React","Go"]
 };
 
 var work = {
@@ -21,7 +21,6 @@ var work = {
 			"datesWorked": "January 2016 - April 2016",
 			"description": "Develop web for hospital."
 		},
-		
 	]
 };
 
@@ -65,9 +64,16 @@ var projects = {
 		{
 			"title": "CASCAP",
 			"datesWorked": "January 2016 - April 2016",
-			"description": "Front-End Web Developer ",
+			"description": "​Solution for Cancer patients",
 			"images": ["images/CASCAP.png"],
 			"url": "http://www.cascap.in.th"
+		},
+		{
+			"title": "Stick Me",
+			"datesWorked": "Now",
+			"description": "Create Webpage using Nextjs",
+			"images": ["images/stickme.png"],
+			"url": "https://stick-e0095.firebaseapp.com"
 		}
 	]
 };
